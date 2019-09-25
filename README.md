@@ -12,10 +12,11 @@ To run the solution file:-
 To run the unit tests:-
 - Open cmd
 - Navigate to the parent folder "Project-Euler" 
-- Run "C:/Python/Python37-32/python.exe -m unittest Tests.Prob1Tests" replacing appropriate directory 
+- Run "C:/Python/Python37-32/python.exe -m unittest Tests.Tests_Prob1" replacing appropriate directory 
 - To run all tests at once remove the test name from the end of the command.
 
 Below is a list of each problem I have answered and a link to the Project Euler website. 
 - Prob1 - https://projecteuler.net/problem=1
 - Prob2 - https://projecteuler.net/problem=2
 - Prob3 - https://projecteuler.net/problem=3
+- Prob4 - https://projecteuler.net/problem=4
