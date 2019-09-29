@@ -14,3 +14,6 @@ class TestisPalindrome(unittest.TestCase):
     
     def test_isPalindromeReturnsFalseWhenPassed102(self):
         self.assertEqual(Prob4.isPalindrome(1012), False)
+
+    def test_findLargestPalindromeReturns9009WhenPassed2(self):
+        self.assertEqual(Prob4.findLargestPalindrome(2), 9009)

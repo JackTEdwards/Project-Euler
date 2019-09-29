@@ -8,6 +8,18 @@ def isPalindrome(n):
     
     return True
 
+def findLargestPalindrome(n):
+    lowestVal = 10**(n-1)
+    highestVal = (10**n)
+    returnVal = 0
+
+    for i in range(lowestVal, highestVal):
+        for j in range (lowestVal, highestVal):
+            val = i*j
+            if (isPalindrome(val) and val > returnVal):
+                returnVal = val
+    
+    return returnVal         
 
 if __name__ == '__main__':
-    isPalindrome(11)
+    print(findLargestPalindrome(3))
